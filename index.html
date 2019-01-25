@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Image Preview</title>
+  <meta name="description" content="Krzysztof Wasilewski - Image Preview">
+  <meta name="author" content="Krzysztof Wasilewski">
+  <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+  <link rel="stylesheet" href="../js/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+</head>
+<body>
+    <div class="mainArea">
+        <div class="leftPanel">
+            <div id="dropArea">
+                    <p class="drop">Drop files here</p>
+            </div>
+            <div id="linkArea">
+                    <textarea class="imageLink" id="imageLink" placeholder="Paste link to image here" ></textarea>
+                    <button id="previewImageButton" class="loadLink ui-button ui-corner-all ui-widget" onclick="previewImageFromLink()">Load Image from Link</button>
+
+            </div>
+        </div>
+        <div id="imageArea">
+
+        </div>
+                     
+    </div>
+    
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+  <script src="js/scripts.js"></script>
+<script>
+ </script>
+<div class="footer">
+    <p>Drag&drop function inspired by Rob Gravelle funtion <a href="https://www.htmlgoodies.com/html5/javascript/drag-files-into-the-browser-from-the-desktop-using-jquery-event-binding.html">https://www.htmlgoodies.com/html5/javascript/drag-files-into-the-browser-from-the-desktop-using-jquery-event-binding.html</a></p>
+</div>
+
+</body>
+</html>
